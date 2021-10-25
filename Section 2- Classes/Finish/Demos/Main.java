@@ -9,9 +9,21 @@ public class Main {
         textBox1.setText("Box 1");
         System.out.println(textBox1.text.toUpperCase());
 
-        var employee = new Employee(50_000, 20);
-        Employee.printNumberOfEmployees();
-        int wage = employee.calculateWage();
+        //Procedural Programming
+        int baseSalary = 50_000;
+        int extraHours = 20;
+        int hourlyRate = 10;
+
+        int wage = calculateWage(baseSalary, extraHours, hourlyRate);
         System.out.println(wage);
+
+//        var employee = new Employee(50_000, 20);
+//        Employee.printNumberOfEmployees();
+//        int wage = employee.calculateWage();
+//        System.out.println(wage);
+    }
+
+    public static int calculateWage(int baseSalary, int extraHours, int hourlyRate){
+        return baseSalary+(extraHours * hourlyRate);
     }
 }
