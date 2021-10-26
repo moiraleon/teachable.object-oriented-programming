@@ -8,7 +8,7 @@ public class Employee {
 
   public Employee(int baseSalary) {
     this(baseSalary, 0);
-  }
+  }//constructor overloading cmd+d to duplicate code
 
   public Employee(int baseSalary, int hourlyRate) { //constructor using setter methods to use data verification of methods
     setBaseSalary(baseSalary);
@@ -29,7 +29,7 @@ public class Employee {
   }//this is considered method overloading - in java it is the only way to run the method with different types of parameteres and can be done but is encouraged to be used sparingly
 
   private void setBaseSalary(int baseSalary) {
-    if (baseSalary <= 0)
+    if (baseSalary < 0)//removing = because hourly rate now may be zero
       throw new IllegalArgumentException("Salary cannot be 0 or less.");
     this.baseSalary = baseSalary;
   }
