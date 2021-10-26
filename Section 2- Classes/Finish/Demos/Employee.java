@@ -4,7 +4,7 @@ public class Employee {
   private int baseSalary;
   private int hourlyRate;
 
-  public static int numberOfEmployees;
+  public static int numberOfEmployees;//static methods can be called in main by using the class name.the static method
 
   public Employee(int baseSalary) {
     this(baseSalary, 0);
