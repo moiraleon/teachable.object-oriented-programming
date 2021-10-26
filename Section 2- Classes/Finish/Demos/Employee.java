@@ -10,7 +10,7 @@ public class Employee {
     this(baseSalary, 0);
   }
 
-  public Employee(int baseSalary, int hourlyRate) {
+  public Employee(int baseSalary, int hourlyRate) { //constructor using setter methods to use data verification of methods
     setBaseSalary(baseSalary);
     setHourlyRate(hourlyRate);
     numberOfEmployees++;
@@ -26,7 +26,7 @@ public class Employee {
 
   public int calculateWage() {
     return calculateWage(0);
-  }
+  }//this is considered method overloading - in java it is the only way to run the method with different types of parameteres and can be done but is encouraged to be used sparingly
 
   private void setBaseSalary(int baseSalary) {
     if (baseSalary <= 0)
@@ -43,8 +43,8 @@ public class Employee {
   }
 
   private void setHourlyRate(int hourlyRate) {
-    if (hourlyRate < 0)
-      throw new IllegalArgumentException("Hourly rate cannot be 0 or negative.");
+    if (hourlyRate <= 0)
+      throw new IllegalArgumentException("Hourly rate cannot be 0 or a negative value.");
     this.hourlyRate = hourlyRate;
   }
 }
