@@ -9,7 +9,7 @@ public abstract class UIControl {
 //
 //  }
 
-  public abstract void render();
+  public abstract void render();//for polymorphism ex
 
   public final void enable() {
     isEnabled = true;
