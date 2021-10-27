@@ -4,7 +4,7 @@ public class TextBox extends UIControl {
   private String text = "";
 
 //  public TextBox() {
-//    super(true);
+//    super(true);//super key word set to a boolean needs to be the first item in the constructor
 //  }
 
 

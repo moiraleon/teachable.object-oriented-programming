@@ -1,7 +1,7 @@
 package com.codewithmosh;
 
 public abstract class UIControl {
-  private boolean isEnabled = true;
+  private boolean isEnabled = true;//other keywords such as protected can be used but are considered bad practice-- protected members are public within their own packages
 
 //  public UIControl(boolean isEnabled) {
 //    this.isEnabled = isEnabled;
