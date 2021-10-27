@@ -7,7 +7,7 @@ public class TaxCalculator2018 extends AbstractTaxCalculator {
     this.taxableIncome = taxableIncome;
   }
 
-  @Override
+  @Override //not prompted by IDE but annotate methods with @ Override for methods being used in an interface// also public declaration in interface is redundant because the method would have to be public to be encapsulated in an interface and extended to other classes so we don't state it
   public double calculateTax() {
     return taxableIncome * 0.3;
   }
