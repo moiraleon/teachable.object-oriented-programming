@@ -5,6 +5,8 @@ public abstract class UIControl {
 
 //  public UIControl(boolean isEnabled) {
 //    this.isEnabled = isEnabled;
+//    System.out.println("UIControl"); Constructors & Inheritance
+//
 //  }
 
   public abstract void render();

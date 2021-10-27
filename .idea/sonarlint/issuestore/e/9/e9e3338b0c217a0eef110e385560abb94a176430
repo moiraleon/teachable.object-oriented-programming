@@ -1,0 +1,10 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(øì““üÿÿÿÿ
+M
+java:S1144%"2Remove this unused private "getBaseSalary" method.(Þ·öÚÿÿÿÿÿ
+x
+java:S1104"]Make numberOfEmployees a static final constant or non-public and provide accessors if needed.(Œ¾Á­úÿÿÿÿ
+R
+java:S1444"7Make this "public static numberOfEmployees" field final(Œ¾Á­úÿÿÿÿ
+Ç
+java:S1598"«This file "Employee.java" should be located in "com/codewithmosh" directory, not in "/Users/moleon/Desktop/DevMountain/Online Coding/Code/Section 2- Classes/Finish/Demos".(¶Ì­­øÿÿÿÿ

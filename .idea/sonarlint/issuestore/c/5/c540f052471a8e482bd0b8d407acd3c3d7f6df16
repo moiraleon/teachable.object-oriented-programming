@@ -1,0 +1,13 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŸŠ­úÿÿÿÿÿ
+T
+java:S3400"9Remove this method and declare a constant for this value.(İò†ßÿÿÿÿÿ
+>
+java:S1172
+")Remove this unused method parameter "ip".(µéÜf
+O
+java:S3400"9Remove this method and declare a constant for this value.(¶ÂÕğ
+I
+java:S1172".Remove this unused method parameter "address".(œÔÎüÿÿÿÿ
+Æ
+java:S1598"ªThis file "Browser.java" should be located in "com/codewithmosh" directory, not in "/Users/moleon/Desktop/DevMountain/Online Coding/Code/Section 2- Classes/Finish/Demos".(¶Ì­­øÿÿÿÿ
