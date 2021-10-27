@@ -6,7 +6,7 @@ public class TaxReport {
 
   public TaxReport(TaxCalculator calculator) {
     this.calculator = calculator;
-  }
+  } //constructor injection
 
   public void show(TaxCalculator calculator) {
     var tax = calculator.calculateTax();
